@@ -22,3 +22,13 @@
 
     font-size: 62.5%;
 }
+
+body{
+    height: 100vh;
+    background: var(--background);
+}
+
+body, button, input, textarea{
+    /* intervalo de tamanho dependendo do tamanho da tela */
+    font-size: clamp(14px, 1.6rem, 2vw);
+}
