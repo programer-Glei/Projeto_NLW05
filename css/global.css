@@ -1,4 +1,12 @@
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+}
+
 :root{
     --balck: #0d114f;
     --white: #fafafa;
@@ -11,13 +19,4 @@
     --grey-dark: #4d5e77;
     --gray-blue: #a1b2cd;
     --gray-light: #e5eaf1;
-}
-
-
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
 }
