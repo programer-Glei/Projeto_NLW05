@@ -17,13 +17,14 @@ header{
 .home-back{
     grid-area: left;
     background: url('../img/home-bg-img.svg') no-repeat top/contain;
+    background-position-x: -10rem;
 }
 
 main{
     grid-area: right;
     display: flex;
     align-items: center;
-    margin-top: -12rem;
+    margin-top: -3rem;
 }
 
 main .container{
