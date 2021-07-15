@@ -70,3 +70,13 @@ input, button, .button{
     width: 100%;
     height: 1px;
 }
+
+/**** create balls *****/
+
+.ball{
+    background: var(--blue);
+}
+
+.ball.top{
+
+}
