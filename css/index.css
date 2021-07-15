@@ -56,6 +56,11 @@ input, button, .button{
     align-items: center;
 }
 
+.separador div:nth-child(2){
+    color: var(--gray-blue);
+    font-family: 'Poppins', sans-serif;
+}
+
 .separador div:nth-child(1), .separador div:nth-child(3){
     background: var(--gray-blue);
     width: 100%;
