@@ -54,6 +54,7 @@ input, button, .button{
 .separador{
     display: flex;
     align-items: center;
+    margin: 4rem 0;
 }
 
 .separador div:nth-child(2){
