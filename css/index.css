@@ -79,6 +79,7 @@ input, button, .button{
     height: 21.2rem;
     position: fixed;
     clip-path: circle();
+    opacity: 0.1;
 }
 
 .ball.top{
