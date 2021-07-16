@@ -100,8 +100,21 @@
     align-items: center;
 }
 
+.question-wrapper .question-content p{
+    margin-left: 1.6rem;
+}
+
 .question-wrapper .action{
     display: flex;
     align-items: center;
     justify-content: flex-end;
+}
+
+.question-wrapper .action > a{
+    display: flex;
+    align-items: center;
+}
+
+.question-wrapper .action > a > img{
+    margin-right: 0.8rem;
 }
