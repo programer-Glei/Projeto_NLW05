@@ -118,3 +118,7 @@
 .question-wrapper .action > a > img{
     margin-right: 0.8rem;
 }
+
+.question-wrapper .action > a + a{
+    margin-left: 2.4rem;
+}
