@@ -13,4 +13,8 @@
     width: min(59rem, 90%);
     background: var(--white);
     margin: auto;
+    border-radius: 0.8rem;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    padding: 6.4rem;
 }
