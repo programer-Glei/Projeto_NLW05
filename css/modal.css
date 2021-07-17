@@ -29,6 +29,12 @@
     margin-bottom: 2.4rem;
 }
 
+.modal-wrapper .modal input{
+    margin-bottom: 4rem;
+    padding: 1.3rem 1.6rem;
+    border: 0.2rem solid var(--blue);
+}
+
 .modal-wrapper .modal .buttons{
     display: flex;
     align-items: center;
