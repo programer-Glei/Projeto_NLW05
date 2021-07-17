@@ -122,3 +122,9 @@
 .question-wrapper .action > a + a{
     margin-left: 2.4rem;
 }
+
+/***** Question Read ***/
+
+.question-wrapper.read{
+    background: var(--gray-medium);
+}
