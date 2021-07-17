@@ -23,10 +23,12 @@
     font-size: 2.4rem;
     font-weight: 700;
     margin-bottom: 1.2rem;
+    color: var(--balck);
 }
 
 .modal-wrapper .modal p{
     margin-bottom: 2.4rem;
+    color: var(--grey-dark);
 }
 
 .modal-wrapper .modal input{
