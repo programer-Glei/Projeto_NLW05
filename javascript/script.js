@@ -29,11 +29,13 @@ function fechar(){
 }
 
 function handleClick(Event, check = true){
+    Event.preventDefault()
     const text = check ? "marcar como lida" : "excluir"
 
     modalTitle.innerHTML = check ? "Marcar como lida" : "Excluir esta pergunta"
     modalSubtitle.innerHTML = check ? "Tem certeza que deseja marcar como lida esta pergunta?" : "Tem certeza que deseja excluir esta pergunta"
     modalButton.innerHTML = `Sim, ${text}`
+    check ? modalButton.classList.remove("red") : modalButton.classList.add("red")
     //abrir modal
     abrir()
 }
