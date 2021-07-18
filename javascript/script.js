@@ -7,6 +7,10 @@ const deleteButons = document.querySelectorAll(".action a.delete")
 
 const modalTitle = document.querySelector(".modal h2")
 
+const modalSubtitle = document.querySelector(".modal p")
+
+const modalButton = document.querySelector(".modal button")
+
 checkButtons.forEach(botoes =>{
     botoes.addEventListener("click", handleClick)
 })
@@ -25,8 +29,11 @@ function fechar(){
 }
 
 function handleClick(Event, check = true){
-    modalTitle.innerHTML = check ? "Marcar como lida" : "Excluir essa pergunta"
+    const text = check ? "marcar como lida" : "excluir"
 
+    modalTitle.innerHTML = check ? "Marcar como lida" : "Excluir esta pergunta"
+    modalSubtitle.innerHTML = check ? "Tem certeza que deseja marcar como lida esta pergunta?" : "Tem certeza que deseja excluir esta pergunta"
+    modalButton.innerHTML = `Sim, ${text}`
     //abrir modal
     abrir()
 }
